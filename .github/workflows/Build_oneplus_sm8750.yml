@@ -14,7 +14,7 @@ on:
           - 'oneplus_ace5_ultra'
           - 'realme_GT7pro'
           - 'realme_GT7pro_Speed'
-        default: 'oneplus_ace5_pro'
+        default: 'realme_GT7pro'
 
       keep_original_settings:
         description: "保持原内核名称及构建时间"
@@ -25,7 +25,7 @@ on:
       custom_kernel_suffix:
         description: "✏️ 自定义内核名称(示例:-TG@qdykernel) - 仅在取消勾选'保持原设置'时有效"
         required: false
-        default: ''
+        default: '-skrbcy'
       
       custom_kernel_time:
         description: "⏰ 自定义构建时间(示例:Tue Dec 17 23:36:49 UTC 2024) - 仅在取消勾选'保持原设置'时有效"
